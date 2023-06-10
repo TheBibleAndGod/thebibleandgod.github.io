@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://thebibleandgod.github.io/sitemap.xml
