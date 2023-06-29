@@ -533,7 +533,7 @@ h6 {
 }
 
 .rslides li:first-child .bannerImage {
-  background: url(../images/banner/1.jpg) 0 0/cover no-repeat;
+  background: url(../images/banner/1.webp) 0 0/cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -541,7 +541,7 @@ h6 {
 }
 
 .rslides li:nth-child(2) .bannerImage {
-  background: url(../images/banner/2.jpg) 0 0/cover no-repeat;
+  background: url(../images/banner/2.webp) 0 0/cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -549,7 +549,7 @@ h6 {
 }
 
 .rslides li:nth-child(3) .bannerImage {
-  background: url(../images/banner/3.jpg) 0 0/cover no-repeat;
+  background: url(../images/banner/3.webp) 0 0/cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -557,7 +557,7 @@ h6 {
 }
 
 .rslides li:nth-child(4) .bannerImage {
-  background: url(../images/banner/4.jpg) 0 0/cover no-repeat;
+  background: url(../images/banner/4.webp) 0 0/cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -711,7 +711,7 @@ h3.title {
 }
 
 .fellowshipPrew {
-  background: url(../images/invite/fellowship.jpg) 0 0/cover no-repeat;
+  background: url(../images/invite/fellowship.webp) 0 0/cover no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
