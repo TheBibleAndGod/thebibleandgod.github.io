@@ -5,6 +5,7 @@
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/merriweathersans/v26/2-c99IRs1JiJN1FRAMjTN5zd9vgsFHX1QjXp8Bte.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap;
 }
 
 /* latin */
@@ -14,6 +15,8 @@
   font-weight: 400;
   src: url(https://fonts.gstatic.com/s/mallanna/v13/hv-Vlzx-KEQb84YaDFw0GTVSVeJ_.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap;
+
 }
 
 @font-face {
@@ -21,7 +24,8 @@
   src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight: 400;
-  font-style: normal
+  font-style: normal;
+  font-display: swap;
 }
 
 .fa {
@@ -51,7 +55,7 @@ body {
 }
 
 .center,
-.slidering h5 {
+.slidering h4 {
   text-align: center
 }
 
@@ -69,7 +73,7 @@ html {
 }
 
 .copyright p,
-.profileInfo h6,
+.profileInfo h4,
 .textInfo h4,
 h3.title,
 p {
@@ -129,14 +133,15 @@ a:focus {
 
 .profile {
   width: 120px;
+  height: 120px;
   border-radius: 50%
 }
 
 .imgResponsive,
 .thumbnail>img {
   display: block;
-  max-width: 100%;
-  height: auto
+  width: 100% !important;
+  height: auto !important;
 }
 
 .sr-only {
@@ -160,7 +165,8 @@ a:focus {
 }
 
 .logo {
-  width: 350px
+  width: 350px;
+  height: 73px;
 }
 
 .container,
@@ -523,7 +529,7 @@ h6 {
 
 p {
   font-size: 18px;
-  color: #777;
+  color: black;
   line-height: 2em
 }
 
@@ -536,6 +542,7 @@ ul.resp-tabs-list {
 
 .icon {
   width: 100px;
+  height: 100px;
   margin: 50px 20px 0
 }
 
@@ -805,7 +812,7 @@ h4.subTitle {
   margin-top: 2em
 }
 
-.slidering h5 {
+.slidering h4 {
   font-size: 1.2em;
   color: #333;
   margin: 1em 0;
@@ -877,11 +884,11 @@ h4.subTitle {
 }
 
 .profileInfo p {
-  color: #777;
+  color: black;
   margin-bottom: 1em
 }
 
-.profileInfo h6 {
+.profileInfo h4 {
   color: #00a78e;
   font-size: 1.1em;
   font-weight: 600;
@@ -1021,7 +1028,7 @@ h4.subTitle {
     margin-top: 3em
   }
 
-  .slidering h5 {
+  .slidering h4 {
     font-size: 1.1em
   }
 }
@@ -1047,7 +1054,7 @@ h4.subTitle {
     margin-top: 1em
   }
 
-  .slidering h5 {
+  .slidering h4 {
     font-size: .9em
   }
 
@@ -1196,7 +1203,7 @@ h4.subTitle {
     font-size: 1.6em
   }
 
-  .slidering h5 {
+  .slidering h4 {
     font-size: 1em
   }
 
@@ -1303,7 +1310,8 @@ h4.subTitle {
 
 @media(max-width:414px) {
   .logo {
-    width: 280px
+    width: 280px;
+    height: 58px;
   }
 
   .bannerImage {
@@ -1365,6 +1373,7 @@ h4.subTitle {
 
   .icon {
     width: 80px;
+    height: 80px;
     margin: 20px 20px 0
   }
 }
@@ -1383,12 +1392,13 @@ h4.subTitle {
     bottom: 13%
   }
 
-  .slidering h5 {
+  .slidering h4 {
     font-size: .8em
   }
 
   .icon {
     width: 80px;
+    height: 80px;
     margin: 10px 10px 0
   }
 }
@@ -1432,7 +1442,8 @@ h4.subTitle {
   }
 
   .logo {
-    width: 250px
+    width: 250px;
+    height: 52px;
   }
 
   .bannerImage {
@@ -1455,6 +1466,7 @@ h4.subTitle {
 
   .icon {
     width: 80px;
+    height: 80px;
     margin: 5px 5px 0
   }
 }
@@ -1554,7 +1566,8 @@ h2.resp-tab-active {
   border: 1px solid #ccc !important;
   margin-bottom: 4px !important;
   border-right: 1px solid #fff !important;
-  background-color: #00a78e !important
+  background-color: #16b69e !important;
+  color: black;
 }
 
 .resp-arrow {
