@@ -1483,6 +1483,12 @@ h4.subTitle {
   float: left
 }
 
+.tabList h4 {
+  font-weight: 600 !important;
+  font-size: 17px !important;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 .resp-tabs-container {
   padding: 0;
   background-color: #fff;
