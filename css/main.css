@@ -74,7 +74,7 @@ html {
 
 .copyright p,
 .profileInfo h4,
-.textInfo h4,
+.textInfo h3,
 h3.title,
 p {
   letter-spacing: 1px
@@ -826,7 +826,7 @@ h4.subTitle {
   margin-bottom: 0
 }
 
-.textInfo h4 {
+.textInfo h3 {
   font-size: 2em;
   font-weight: 700;
   color: #222;
@@ -1199,7 +1199,7 @@ h4.subTitle {
     left: 15%
   }
 
-  .textInfo h4 {
+  .textInfo h3 {
     font-size: 1.6em
   }
 
