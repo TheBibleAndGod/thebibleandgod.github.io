@@ -890,9 +890,9 @@ h4.subTitle {
 
 .profileInfo h4 {
   color: #00a78e;
-  font-size: 1.1em;
-  font-weight: 600;
-  margin-bottom: 2em
+  font-size: 21px !important;
+  font-weight: 900 !important;
+  margin-bottom: 2em;
 }
 
 @media (min-width:768px) {
